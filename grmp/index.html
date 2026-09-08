@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人名片 - 张三</title>
+    <!-- 引入外部CSS样式文件(结构与样式分离) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 名片卡片容器:通过body的flex布局实现水平垂直居中 -->
+    <div class="card">
+
+        <!-- 圆形头像区:使用CSS绘制的首字头像,无图片依赖,可替换为真实照片 -->
+        <div class="avatar">
+            <span class="avatar-text">张</span>
+        </div>
+
+        <!-- 姓名 -->
+        <h1 class="name">张三</h1>
+
+        <!-- 职位 -->
+        <p class="position">资深前端开发工程师</p>
+
+        <!-- 联系方式区 -->
+        <div class="contact">
+            <!-- 电话 -->
+            <div class="contact-item">
+                <span class="icon">☎</span>
+                <span>138-0000-0000</span>
+            </div>
+            <!-- 邮箱 -->
+            <div class="contact-item">
+                <span class="icon">✉</span>
+                <span>zhangsan@example.com</span>
+            </div>
+            <!-- 地址 -->
+            <div class="contact-item">
+                <span class="icon">⌂</span>
+                <span>北京市朝阳区</span>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
